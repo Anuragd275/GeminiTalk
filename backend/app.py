@@ -1,12 +1,14 @@
 import os
 from dotenv import load_dotenv
 from flask import Flask, jsonify, request
+from flask_cors import CORS
 from database.db import *
 from middleware.api import *
 
 load_dotenv()
 
 app = Flask(__name__)
+CORS(app)
 
 # index
 @app.route('/', methods=['GET'])
