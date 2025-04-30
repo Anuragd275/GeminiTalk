@@ -48,7 +48,7 @@ class ActionProvider {
         const loadingMessage = this.addLoadingMessage();
 
         try {
-            const response = await axios.post('http://127.0.0.1:5000/chat', {
+            const response = await axios.post('https://geminitalk-uy05.onrender.com/chat', {
                 user_text: message
             });
 
