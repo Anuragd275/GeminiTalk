@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,61 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 5px;
+  color: white;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.chatbot-container {
+  width: 15rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom styles for the chatbot */
+.react-chatbot-kit-chat-container {
+  width: 100%;
+}
+
+.react-chatbot-kit-chat-bot-message {
+  margin-left: 0;
+}
+
+.react-chatbot-kit-chat-message-container {
+  padding: 0 1.25rem;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.option-button {
+  background-color: #376B7E;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.option-button:hover {
+  background-color: #2a5363;
 }
